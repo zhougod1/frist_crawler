@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var app = require('express')();
 var ht = require('http').Server(app)
 var server = require('socket.io');
